@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iButtonLib", "iButtonLib\iButtonLib.csproj", "{152746D8-F182-40FC-A4A3-C69AE584DDD2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iButtonManager", "iButonManager\iButtonManager.csproj", "{D63C743C-2D8E-421B-801C-12BF1FD6D59C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFDF7F3C-C65A-4BDB-9ED2-56104C4D2FD9}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		screenshot.png = screenshot.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
