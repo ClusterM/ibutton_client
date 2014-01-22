@@ -12,6 +12,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+// Внимание! Ниже много говнокода :)
+
 namespace Cluster.iButtonManager
 {
     public partial class FormIButtonManager : Form

@@ -17,6 +17,9 @@ namespace Cluster.iButtonLib
             Port = port;
         }
 
+        /// <summary>
+        /// Открывает порт
+        /// </summary>
         private SerialPort OpenPort()
         {
             SerialPort sPort;
@@ -35,6 +38,9 @@ namespace Cluster.iButtonLib
             return sPort;
         }
 
+        /// <summary>
+        /// Проверяет - на этом ли порту наше устройство
+        /// </summary>
         public bool Test()
         {
             bool result = false;
@@ -61,6 +67,9 @@ namespace Cluster.iButtonLib
             return result;
         }
 
+        /// <summary>
+        /// Читает ключи из устройства
+        /// </summary>
         public iButtonKey[] ReadKeys()
         {
             var port = OpenPort();
@@ -90,6 +99,9 @@ namespace Cluster.iButtonLib
             }            
         }
 
+        /// <summary>
+        /// Стирает ключи из устройства
+        /// </summary>
         public void Erase()
         {
             var port = OpenPort();
@@ -108,6 +120,9 @@ namespace Cluster.iButtonLib
             }
         }
 
+        /// <summary>
+        /// Записывает ключ в устройство
+        /// </summary>
         public void Write(iButtonKey key)
         {
             var port = OpenPort();
@@ -126,6 +141,9 @@ namespace Cluster.iButtonLib
             }
         }
 
+        /// <summary>
+        /// Перезагружает устройство
+        /// </summary>
         public void Reboot()
         {
             var port = OpenPort();
